@@ -1,0 +1,54 @@
+.sec2{
+    display: flex;
+    margin-left: 300px;
+}
+.sec2 svg{
+    margin: 10px;
+}
+.sec3{
+    display: flex;
+    margin-left: 280px;
+}
+.sec3 li{
+    color: #757474;
+    margin-left: 10px;
+}
+.sec4{
+    font-size: small;
+    display: flex;
+    margin-left:300px;
+}
+.sec4 li{
+    margin: 5px;
+}
+.sec4 input{
+    position: absolute;
+    margin-top: 12px;
+    /* margin: 1%; */
+    
+    margin-left: 5px;
+}
+input{
+    height: 2px;
+}
+.card{
+    overflow: hidden;
+}
+.card svg{
+    position: absolute;
+    background-color: #36b436;
+    width: 50px;
+    padding: 10px;
+    height: 50px;
+    border-radius: 50%;
+    bottom: 110px;
+    margin-left: 80px;
+    opacity: 0;
+    transition-property: transition-duration 1s;
+}
+.card:hover svg{
+    bottom: 120px;
+    opacity: 1;
+    transition-duration: 0.2s;
+    
+}

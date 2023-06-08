@@ -1,0 +1,181 @@
+@import url(./middle.css);
+@import url(aside.css);
+*{
+    padding: 0%;
+    margin: 0%;
+    color: white;    
+    list-style: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif),sans-serif;
+
+}
+h5{
+    font-size: medium;
+    font-weight: 700;
+    color: rgba(250, 235, 215, 0.653);
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.card div+div+{
+    border: 1px solid;
+    overflow: hidden;
+}
+.card-title{
+    text-align: start;
+
+    /* border: 1px solid; */
+    color: aliceblue;
+}
+body{
+    background-color:#121212;
+
+
+}
+aside div{
+    background-color: #1a1a1a;
+    margin: 5px;
+    border-radius: 10px  0 0 10px;
+}
+aside{
+    margin: 2px;
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    /* border: 1px solid red; */
+    background-color: #1d1d1d;
+}
+#svg{
+    background-color: #070707;
+}
+aside svg{
+    margin: 5%;
+    padding: 1%;
+    height: 50px;
+    width: 80%;
+}
+section{
+    margin: 1%;
+    width: 98%;
+    /* float: right; */
+}
+main{
+    height: 10%;
+    width: 80%;
+    float: right;
+    /* overflow: auto;
+    padding: auto; */
+}
+.sec .card:hover{
+    background-color: #252525;
+}
+body::-webkit ::-webkit-scrollbar{
+    width: 1px;
+}
+#svg2 li{
+    padding: 10px;
+    border-radius: 10px;
+}
+.sec4 li{
+    padding: 5px;
+    border-radius: 10px;
+}
+nav{
+    overflow: hidden;
+    z-index: 111;
+    position: fixed;
+    width: 80%;
+    margin-left: 2px;
+    height: 80px;
+    background: #000;
+}
+nav ul{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+nav ul li:nth-child(1){
+    background-color: #070707;
+    border-radius: none;
+    color: #000;
+    margin-right: 750px;
+
+}
+nav ul li{
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 3px;
+    border-radius: 20px;
+    margin: 5px;
+}
+nav ul li a{
+    font-size: small;
+    font-weight: 700;
+    color: #000000;
+}
+nav ul li:hover{
+    background-color: rgb(108, 108, 108);
+    /* border-radius: 10px; */
+    
+
+}
+.sec{
+    /* border: 1px solid; */
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1a1a1a;
+}
+h3{
+    padding: 1%;
+    float: left;
+    font-size: 20px;
+    font-weight: 600;
+    color: #c0c0c0;
+}
+h4{
+    color: rgba(240, 248, 255, 0.596);
+    font-weight: 700;
+    padding: 1%;
+    font-size: 12px;
+    font-weight: bolder;
+    font-weight: 800;
+    float: right;
+}
+.sec div:first-child{
+    /* border: 1px solid; */
+    width: 100%;
+}
+.sec .card{
+    overflow: hidden;
+    background-color:#070707;
+    padding: 15px;
+    margin: 20px;
+}
+.sec .card-img-top{
+    width: 150px;
+    height: 150px;
+}
+
+.sec2 div:first-child{
+    /* border: 1px solid; */
+    height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sec2 div+div{
+    border: 1px solid red;
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin: 2px;
+}
+.card-title{
+    margin-left: 0%;
+}

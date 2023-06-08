@@ -1,0 +1,68 @@
+.aside1 svg{
+    width: 24px;
+    height:24px;
+    fill: rgb(185, 185, 185);
+}
+.aside1 span{
+    font-size: medium;
+    font-weight: 700;
+    color: #8c8c8ce4;
+}
+.aside2 svg+svg{
+    height: 4px;
+    width: 4px;
+}
+.aside2 svg{
+    /* border: 1px solid; */
+    width: 24px;
+    height:24px;
+    fill: rgb(185, 185, 185);
+} 
+.aside2 span{
+    font-size: medium;
+    font-weight: 700;
+    color: #8c8c8ce4;
+}
+.aside3 li+li{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -40px;
+} 
+aside{
+    overflow: hidden;
+}
+.aside4{
+    overflow:hidden;
+    display: flex;
+}
+.aside4 li{
+    padding: 1%;
+    border-radius: 10px;
+    background-color: #ffffffcb;
+    color: black;
+    font-size: small;
+    font-weight: 600;
+    margin: 5px;
+}
+li:hover{
+    background-color: #d5d5d522;
+    padding: auto !important;
+    cursor: pointer;
+}
+nav img{
+    width: 20px;
+    border-radius: 50%;
+}
+.aside5{
+    height: 500px;
+    overflow: auto;
+    
+}
+.aside5::-webkit-scrollbar{
+    width: 1px;
+}
+.aside5 div:hover div{
+    background-color: rgb(64, 64, 64);
+}
+
+
